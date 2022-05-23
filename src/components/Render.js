@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 
 import Styles from '../styles/Render';
-import Botao from "./Botao";
+import Teclado from "./Teclado";
 
 
 export default class Render extends Component {
@@ -13,7 +13,7 @@ export default class Render extends Component {
     render (){
         return (
             <SafeAreaView style={Styles.Container}>
-                <Botao nome='X' valor='X' duplo/>
+                <Teclado/>
             </SafeAreaView>
         );
     }
